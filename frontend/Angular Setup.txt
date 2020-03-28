@@ -1,0 +1,12 @@
+1. Install node js in your machine
+2. Install angular cli (angular installer) with root permission: e.g. Run sudo npm install -g @angular/cli
+3. Open terminal to the directory where you want to create angular project
+4. Create new angular project: eg Run ng new angular-src
+
+
+// routing
+5. Create new component: e.g. Run ng g c auth/signup --spec=false --flat=true
+
+6. Create new module: e.g. Run ng g m app-routing --flat=true // this is optional 
+
+// if we make either component or module. both should be included in app.module.ts file
